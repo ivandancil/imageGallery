@@ -1,11 +1,13 @@
 .add-product{
     box-sizing: border-box;
     width: 100%;
-    max-width: 800px;
-    padding: 30px 50px;
+    height: 100vh;
+    padding: 5px 40px;
     margin: 20px 30px;
     border-radius: 6px;
     background: rgb(248, 243, 243);
+    
+    
 }
 .addproduct-itemfield{
     width: 100%;
@@ -56,6 +58,7 @@
     font-size: 16px;
     font-weight: 500;
 }
+
 
 @media(max-width:800px){
     .add-product{

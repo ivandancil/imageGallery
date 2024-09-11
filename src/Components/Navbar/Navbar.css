@@ -2,37 +2,42 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 60px;
+    padding: 5px 60px;
     box-shadow: 0 1px 3px -2px #000;
-    margin-bottom: 1px;
     background: white;
 }
-.nav-logo{
-    width: 200px;
+.navbar p{
+    font-family: Poppins;
+    letter-spacing: .3rem;
+    font-weight: 600;
+    font-size: larger;
 }
 .nav-profile{
-    width: 75px;
+    width: 45px;
+    border-radius: 50px;
 }
 
 @media(max-width:800px){
     .navbar{
-        padding: 15px 30px;
+        padding: 2px 45px;
     }
-    .nav-logo{
-        width: 150px;
+    .navbar p{
+        letter-spacing: .2rem;
+        font-size: large;
     }
     .nav-profile{
-        width: 60px;
+        width: 40px;
     }
 }
-@media(max-width:800px){
+@media(max-width:600px){
     .navbar{
-        padding: 15px 30px;
+        padding: 1px 30px;
     }
-    .nav-logo{
-        width: 150px;
+    .navbar p{
+        letter-spacing: .1rem;
+        font-size: medium;
     }
     .nav-profile{
-        width: 60px;
+        width: 30px;
     }
 }
